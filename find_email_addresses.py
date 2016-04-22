@@ -20,7 +20,7 @@ def find_emails_on(curr_page, emails, visited_pages, url):
 	try:
 		response = urllib2.urlopen(req)
 		
-		# Avoid reading from non-html pages (e.g. .pdf, .exe, .mp3, etc)
+		# Avoid reading from links to non-html pages (e.g. .pdf, .exe, .mp3, etc)
 		if not response.info().getheader('Content-Type').startswith('text/html'):
 			return
 
