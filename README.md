@@ -7,18 +7,18 @@ This script takes in a url and prints out all email addresses found on the corre
 
 To run this program:
 
-'''python find_email_addresses.py [URL]'''
+```python find_email_addresses.py [URL]```
 
 --------
 
 Because this program deals with opening many weblinks, opening certain pages will not necessarily succeed. All HTTP errors are documented by printing the HTTP status code and response message to standard error. 
 To surpress erros, run:
 
-'''python find_email_addresses.py [URL] 2> /dev/null'''
+```python find_email_addresses.py [URL] 2> /dev/null```
 
 To redirect errors, run:
 
-'''python find_email_addresses.py [URL] 2> error_file.txt'''
+```python find_email_addresses.py [URL] 2> error_file.txt```
 
 ---------
 
