@@ -1,4 +1,6 @@
 # Gabrielle Cella email address scraper coding challenge
+# 4/17/16
+# Jana
 
 import sys
 import urllib2
